@@ -1,0 +1,25 @@
+.nav-item {
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+  color: white !important;
+}
+.navbar-cart-link {
+  color: grey !important;
+  text-decoration: none !important;
+  position: relative;
+}
+
+.navbar-cart-badge {
+  top: -6px;
+  right: -10px;
+  font-size: 10px;
+  padding: 2px 6px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

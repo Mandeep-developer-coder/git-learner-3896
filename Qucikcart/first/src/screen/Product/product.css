@@ -1,0 +1,51 @@
+
+.card {
+  border:1px solid white;
+  background-color: white !important;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+body{
+background-color: #f8f8f8;
+}
+.card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+
+.twoLine {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.clipboard-scroll {
+  overflow-x: hidden; 
+}
+body {
+  overflow-x: hidden;
+}
+.btn-red {
+  background-color: #ffbac1!important; 
+border:none;}
+
+.clipboard-scroll {
+  overflow-x: hidden; 
+}
+
+
+::-webkit-scrollbar {
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: white; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: white; 
+  border-radius: 10px;
+}
